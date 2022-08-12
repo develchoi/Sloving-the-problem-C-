@@ -12,5 +12,10 @@ class FourCal{
 			int result = first + second;
 			return result;
 		}
+		
+		int sub(){
+			int result = fisrt + second;
+			return result;
+		}
 
 };
