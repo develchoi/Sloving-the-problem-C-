@@ -3,9 +3,14 @@ class FourCal{
 		int first;
 		int second;
 	public:
-		setdata(int first, int second){
+		void setdata(int first, int second){
 			this->first = first;
 			this->second = second;
+		}
+		
+		int add(){
+			int result = first + second;
+			return result;
 		}
 
 };
