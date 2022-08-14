@@ -1,5 +1,5 @@
 class FourCal{
-	private:
+	protected:
 		int first;
 		int second;
 	public:
@@ -18,4 +18,11 @@ class FourCal{
 			return result;
 		}
 
+};
+
+class SafeCal : public FourCal{
+	int div(){
+		if(second == 0) return 0;
+		return first / second;
+	}
 };
