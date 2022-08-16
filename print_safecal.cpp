@@ -1,7 +1,8 @@
-#include<SafeCal>
+#include"FourCal.h"
 using namespace std;
 
 int main(){
-	SafeCal cal1;
-	cout << cal.div() << "\n";
+	SafeCal result;
+	result.setdata(2, 4);
+	cout << result.div();
 }
