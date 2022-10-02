@@ -25,4 +25,5 @@ int main() {
 	cout << ans;
 }
 
-//What is difference between DP and Divide-Conqure 
+//What is difference between DP and Divide-Conqure?
+//Solving process(DP: Bottom-up, DC: Top-down)
